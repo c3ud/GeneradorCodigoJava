@@ -1,15 +1,15 @@
 # GeneradorCodigoJava
 ## Integrantes
 ### **Dwan Felipe Veloza Paez**
-### **Diego Alejandro Rodriguez Hernandez**
- 
+### **Diego Alejandro Hernandez Martinez **
+
 Con este proyecto hemos desarrollado un generador de código para Java a partir de TextX y jinja 2 por python.
 
-Para este ejemplo en particular creamos un concepto inicial que llemamos Banda en la cual creamos diferentes entidades con sus priedades a las que se les definie por un tipo y un nombre.
+Para este ejemplo en particular creamos un concepto inicial que llamaremos Banda en la cual creamos diferentes entidades con sus propiedades a las que se les definie por un tipo y un nombre.
 
 ![](https://scontent.fclo1-2.fna.fbcdn.net/v/t1.0-9/34534673_1679653362153684_8138325674248110080_n.jpg?_nc_cat=0&_nc_eui2=AeGGEWHfnccx0OXSpJw7SCULtzXLy1t1LeiIkYI2hzQcOX5Vnx9hgqp7sG5VPKOylUwRpgkdwQ1DG5fJhey7WCYmvPj4rx0ArXpDhid4rIIIiQ&oh=37857123f306c5acd3b38c63ba4fb733&oe=5B81B78F)
 
-textX no impone ninguna biblioteca o proceso especíco para la generación de código fuente. Por lo tanto Jinja 2 nos permite generar código en java sin ningun porblema a partir de nuestros modelos de entidades que son archivos java.template como se ve en la imágen:
+textX no impone ninguna biblioteca o proceso específico para la generación de código fuente. Por lo tanto Jinja 2 nos permite generar código en java sin ningun problema a partir de nuestros modelos de entidades que son archivos java.template como se ve en la imágen:
 
 ![](https://scontent.fclo1-2.fna.fbcdn.net/v/t1.0-9/34343427_1679656025486751_5718603926463315968_n.jpg?_nc_cat=0&_nc_eui2=AeFh0u8LsWfZfe7lLKZdbp4X1rqZnxriyP7y27HuGIbMQXv4F66fH1NHc31nchwLztZp1nwoD4HVr4OUJ9q3K3sEsN7UT1tUeZE9V7l4_jIIKw&oh=4d26bfe69c538cb5945feb125967cfd5&oe=5BBEFDF9)
 

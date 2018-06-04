@@ -1,0 +1,52 @@
+package Musica;
+public class {{entity.name|capitalize}} {
+
+  {% for property in entity.properties %}
+    {% if property is entity %}
+		{% if entity.name|capitalize == 'Instrumentos' %}
+	private {{property.type.name|capitalize}} {{property.name}} = new {{property.type.name|capitalize}}();
+		{% else %}
+	private {{property.type.name|capitalize}} {{property.name}};
+		{% endif %}
+    {% else %}
+    private {{property.type|javatype}} {{property.name}};
+    {% endif %}
+
+
+
+  {% endfor %}
+  {% if entity.name|capitalize =='Instruments' %}
+
+  {% else %}
+	public {{entity.name|capitalize}}(){
+	}
+  {% endif %}
+  {% for property in entity.properties %}
+    public {{property.type.name|capitalize}} get{{property.name|capitalize}}(){
+      return this.{{property.name}};
+    }
+  {% endfor %}
+  {% for property in entity.properties %}
+    public void set{{property.name|capitalize}}({{property.type.name|capitalize}} value){
+      this.{{property.name}} = value;
+    }
+  {% endfor %}
+  {% if entity.name|capitalize =='Tocar' %}
+
+    public boolean isValidar_Tocar() {
+    		if (preparar.isValidar_afinacion() == false) {
+    			validar_Tocar = false;
+    			System.out.println("Los instrumentos no estan afinados");
+    			preparar.setValidar_afinacion(true);
+    		} else if (preparar.isValidar_afinacion() == true) {
+    			validar_Tocar = true;
+    			System.out.println("Los instrumentos se afinaron");
+    			System.out.println("");
+    			System.out.println("Tocando");
+
+    		}
+    		return validar_Tocar;
+    	}
+  {% endif %}
+
+}

@@ -1,0 +1,18 @@
+entity Instruments{
+  clarinete : string
+  trompeta : string
+  oboe : string
+  trombon : string
+  bombo : string
+}
+entity afinar{
+  validar_afinacion : logico
+}
+entity Tocar{
+  validar_Tocar : logico
+  prepara : afinar
+}
+entity Instrumentos{
+   tocando : Tocar
+   afinando : afinar
+}

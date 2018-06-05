@@ -1,7 +1,7 @@
 # GeneradorCodigoJava
 ## Integrantes
 ### **Dwan Felipe Veloza Paez**
-### **Diego Alejandro Hernandez Martinez **
+### **Diego Alejandro Hernandez Martinez**
 
 Con este proyecto hemos desarrollado un generador de código para Java a partir de TextX y jinja 2 por python.
 

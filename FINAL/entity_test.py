@@ -23,7 +23,7 @@ class SimpleType(object):
         return self.name
 
 
-def get_entity_mm(debug=False):
+def get_entity_mm(debug=True):
     """
     Builds and returns a meta-model for Entity language.
     """

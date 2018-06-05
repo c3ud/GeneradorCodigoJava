@@ -1,7 +1,32 @@
+# CIENCIAS DE LA COMPUTACION III
+## Universidad Distrital Francisco Jose de Caldas
+
+### Proyecto Final  TextX
+
+| **Nombre** | Codigo  | Github |
+| :---: | :---: | :---: |
+| Diego Alejandro Hernandez | 20141020271 | @usercall |
+| Dwan Felipe Veloza Paez | 20142020098 | @Dwan13 |
+
+
 # GeneradorCodigoJava
-## Integrantes
+
+![alt text](https://www.udistrital.edu.co/themes/custom/versh/images/default/preloader.png "U Distrital")
+
+
+
 ### **Dwan Felipe Veloza Paez**
 ### **Diego Alejandro Hernandez Martinez **
+
+
+
+
+Recordemos que la consrucion de nuestro metamodelo esta dado por la utilizacion de una gramatica definida dentto de **entity.tx** y cada una de las entindades elaboradas, pertenecientes possen la extension *.ent*   
+
+Una de las caracteristicas de nuestro DSL, es permitir la generacion de codigo de forma automatica, de tareas que usualmente se repiten
+
+
+
 
 Con este proyecto hemos desarrollado un generador de código para Java a partir de TextX y jinja 2 por python.
 
@@ -26,8 +51,3 @@ Ahora, veamos cómo podemos armar esto. Necesitamos inicializar el motor Jinja2,
 Por último el resultado de la entidad Instrumentos como código generado será así:
 
 ![](https://scontent.fclo1-2.fna.fbcdn.net/v/t1.0-9/34367991_1679660468819640_7249026638044725248_n.jpg?_nc_cat=0&_nc_eui2=AeGfaVp-fm5m27wz7TAerzZ7DBB-eoJLhHiERGPQc9DW19281z1Bt0J6eXsJy2WPaf9YfzYKp24iu7648v01G635Rbz9hV5BC0cKoB4hg7tzyw&oh=cfed4c3eff693fe8fe55cc251ae0172b&oe=5B795092)
-
-
-Recordemos que la consrucion de nuestro metamodelo esta dado por la utilizacion de una gramatica definida dentto de **entity.tx** y cada una de las entindades elaboradas, pertenecientes possen la extension *.ent*   
-
-Una de las caracteristicas de nuestro DSL, es permitir la generacion de codigo de forma automatica, de tareas que usualmente se repiten 

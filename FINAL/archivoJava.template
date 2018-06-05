@@ -11,12 +11,8 @@ public class {{entity.name|capitalize}} {
     {% else %}
     private {{property.type|javatype}} {{property.name}};
     {% endif %}
-
-
-
   {% endfor %}
   {% if entity.name|capitalize =='Instruments' %}
-
   {% else %}
 	public {{entity.name|capitalize}}(){
 	}
@@ -43,10 +39,10 @@ public class {{entity.name|capitalize}} {
     			System.out.println("Los instrumentos se afinaron");
     			System.out.println("");
     			System.out.println("Tocando");
-
     		}
     		return validar_Tocar;
     	}
+      
   {% endif %}
 
 }

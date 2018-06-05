@@ -37,7 +37,7 @@ def main(debug=False):
 
 
     # Create output folder
-    srcgen_folder = join(this_folder, 'GenProyectoFinal/Orquesta/src/Musica')
+    srcgen_folder = join(this_folder, 'srcGen')
     if not exists(srcgen_folder):
         mkdir(srcgen_folder)
 
